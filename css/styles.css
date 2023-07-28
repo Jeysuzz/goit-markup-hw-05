@@ -607,7 +607,7 @@ img {
 
 .project-hover {
   position: relative;
-
+  width: auto;
   height: auto;
   margin: 0 auto;
   background-color: #bdbdbd;
@@ -620,8 +620,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3f51b5;
-
+  background-color: var(--iris);
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
 }
