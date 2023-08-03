@@ -530,7 +530,6 @@ img {
 
 .footer-address,
 .footer-block {
-  margin-top: 12px;
 }
 
 .footer-heading {
@@ -631,4 +630,74 @@ img {
   margin: 40px 32px;
   color: var(--cloud, #f4f4fd);
   letter-spacing: 0.32px;
+}
+
+/* Subscribe */
+.button.label {
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 80px;
+  color: var(--white);
+}
+
+/* Homework 6 Forms */
+
+/* Modal Section */
+.modal-content {
+  margin-top: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+input {
+  padding: 8px;
+  font-family: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.modal-content {
+  font-size: 16px;
+}
+.modal-form {
+}
+
+.forms .label-form {
+  margin-top: 16px;
+  color: var(--lightslate, #8e8f99);
+}
+
+.button.send {
+  color: var(--white);
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.text-area {
+  padding-top: 5px;
+  padding-left: 9px;
+  font-size: 12px;
+  color: var(--light-slate);
+  font-weight: 400;
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.label-checkbox {
 }

@@ -582,6 +582,25 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscribe">
+            <p>Subscribe</p>
+            <form class="subscribe-footer">
+              <label class="subscribe list">
+                <input
+                  type="text"
+                  name=""
+                  class="subscribe-field"
+                  autofocus
+                  placeholder="Email"
+                /><button type="submit" class="button label">
+                  Subscribe
+                  <svg class="icon" width="24px" height="24px">
+                    <use src="./images/icons.svg#email"></use>
+                  </svg>
+                </button>
+              </label>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -592,6 +611,56 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <div class="modal-content">
+          <h5>Leave your contacts and we will call you back</h5>
+          <!-- <div class="modal-form"> -->
+          <form class="forms">
+            <label class="label-form">
+              Name
+              <input type="text" name="Name" autofocus class="field" />
+              <svg class="icon" width="20" height="20">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </label>
+            <label class="label-form">
+              Phone
+              <input type="text" name="Phone" />
+            </label>
+            <label class="label-form">
+              Email
+              <input type="text" name="Email" autofocus />
+            </label>
+            <label class="label-form">
+              Feedback
+              <textarea
+                class="text-area"
+                name="Feedback"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+            <label class="label-checkbox">
+              <span
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="checkbox"
+                  value="checkbox"
+                  id="checkbox"
+                /><span
+                  >I accept the terms and conditions of the
+                  <a href="#" target="_blank" ref="nopener norefer"
+                    >Privacy Policy</a
+                  ></span
+                ></span
+              >
+            </label>
+          </form>
+          <!-- </div> -->
+        </div>
+        <div class="modal-send">
+          <button type="submit" class="button send">SEND</button>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
